@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules":{
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "camelcase": "off",
+    "import/prefer-default-export": "off",
+    "react/prefer-stateless-function": "off",
+    "no-new": "off",
+    "no-console":"off"
+  }
+}
